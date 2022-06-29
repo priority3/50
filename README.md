@@ -1,7 +1,4 @@
-## template
+## my 50 vue project
 
-- [x] ts
-- [x] vue3
-- [x] vite2
-- [x] unocss
-- [x] auto-components & auto vue
+all views description
+> 
