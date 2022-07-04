@@ -21,7 +21,8 @@
     "noImplicitAny": false,
     "skipLibCheck": true,
     "types": [
-      "vite/client"
+      "vite/client",
+      "vite-plugin-pages/client"
     ],
     "removeComments": true,
     "typeRoots": ["./node_modules/@types", "./types"],

@@ -4,7 +4,7 @@ import { configUnocss } from './unocss'
 import { configAutoimport } from './auto-imp'
 import { configVuecomponents } from './vue-auto-com'
 import { configMockplugin } from './mock'
-export function configVitePlugin(isBuild: Boolean): Plugin[] {
+export function configVitePlugin(isBuild: Boolean) {
   const vitePlugins: (Plugin | Plugin[]) [] = [
     // unocss
     configUnocss(),

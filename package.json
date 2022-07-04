@@ -12,8 +12,10 @@
   "dependencies": {
     "@vueuse/core": "^8.7.5",
     "ant-design-vue": "^3.2.9",
+    "nprogress": "^0.2.0",
     "unplugin-auto-import": "^0.9.1",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",
@@ -26,6 +28,7 @@
     "unplugin-vue-components": "^0.20.1",
     "vite": "^2.9.9",
     "vite-plugin-mock": "^2.9.6",
+    "vite-plugin-pages": "^0.24.3",
     "vue-tsc": "^0.34.17"
   }
 }
