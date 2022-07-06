@@ -1,6 +1,6 @@
 import Pages from 'vite-plugin-pages'
 
-export function configPages() {
+export function setupConfigPages() {
   return Pages({
     dirs: 'src/views',
   })

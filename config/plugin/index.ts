@@ -4,6 +4,7 @@ import { configUnocss } from './unocss'
 import { configAutoimport } from './auto-imp'
 import { configVuecomponents } from './vue-auto-com'
 import { configMockplugin } from './mock'
+import { setupConfigPages } from './pages'
 export function configVitePlugin(isBuild: Boolean) {
   const vitePlugins: (Plugin | Plugin[]) [] = [
     // unocss
@@ -13,6 +14,8 @@ export function configVitePlugin(isBuild: Boolean) {
     // vue 相关组件 自动导入
     configVuecomponents(),
     // vue
+    // pages
+    setupConfigPages(),
     Vue({
       // $语法糖
       reactivityTransform: true,

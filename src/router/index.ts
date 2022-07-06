@@ -1,9 +1,16 @@
 // import type { RouteRecordRaw } from 'vue-router'
 import type { App } from 'vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
+import type { RouteRecordRaw } from 'vue-router'
 import { setupRouteGuard } from './guard'
-import routes from '~pages'
-console.log(routes)
+import pageRoutes from '~pages'
+const routes: RouteRecordRaw[] = [
+  {
+    path: '/',
+    redirect: '/home',
+  },
+  ...pageRoutes,
+]
 
 export const router = createRouter({
   history: createWebHashHistory(),

@@ -8,8 +8,10 @@ function createPageLoadingGuard(router: Router) {
   router.beforeEach((to: RouteLocationNormalized, from: RouteLocationNormalized, next: NavigationGuardNext) => {
     console.log(to, from)
     NProgress.start()
+    next()
   })
-  router.afterEach(() => {
+  router.afterEach((to: RouteLocationNormalized, _: RouteLocationNormalized) => {
     NProgress.done()
+    document.title = (to.meta.title || '50 project vue') as string
   })
 }
