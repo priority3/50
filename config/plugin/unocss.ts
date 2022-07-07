@@ -9,7 +9,7 @@ export function configUnocss() {
       presetIcons(),
     ],
     shortcuts: {
-
+      'icon-btn': 'op50 hover:op100',
     },
   })
 }
