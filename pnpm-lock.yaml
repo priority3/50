@@ -7,6 +7,7 @@ specifiers:
   '@vitejs/plugin-vue': ^2.3.3
   '@vueuse/core': ^8.7.5
   eslint: ^8.18.0
+  fuse.js: ^6.6.2
   mockjs: ^1.1.0
   nprogress: ^0.2.0
   typescript: ^4.7.4
@@ -21,6 +22,7 @@ specifiers:
   vue-tsc: ^0.34.17
 
 dependencies:
+  fuse.js: 6.6.2
   nprogress: 0.2.0
   unplugin-auto-import: 0.9.1_5smtrbmayeckluww3ebuwm6kim
   vue: 3.2.37
@@ -2002,6 +2004,11 @@ packages:
   /functions-have-names/1.2.3:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
     dev: true
+
+  /fuse.js/6.6.2:
+    resolution: {integrity: sha512-cJaJkxCCxC8qIIcPBF9yGxY0W/tVZS3uEISDxhYIdtk8OL93pe+6Zj7LjCqVV4dzbqcriOZ+kQ/NE4RXZHsIGA==}
+    engines: {node: '>=10'}
+    dev: false
 
   /get-intrinsic/1.1.2:
     resolution: {integrity: sha512-Jfm3OyCxHh9DJyc28qGk+JmfkpO41A4XkneDSujN9MDXrm4oDKdHvndhZ2dN94+ERNfkYJWDclW6k2L/ZGHjXA==}

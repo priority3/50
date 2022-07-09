@@ -1,7 +1,7 @@
 import type { Plugin } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import { configUnocss } from './unocss'
-import { configAutoimport } from './auto-imp'
+// import { configAutoimport } from './auto-imp'
 import { configVuecomponents } from './vue-auto-com'
 import { configMockplugin } from './mock'
 import { setupConfigPages } from './pages'
@@ -10,7 +10,7 @@ export function configVitePlugin(isBuild: Boolean) {
     // unocss
     configUnocss(),
     // 自动引入
-    configAutoimport(),
+    // configAutoimport(),
     // vue 相关组件 自动导入
     configVuecomponents(),
     // vue

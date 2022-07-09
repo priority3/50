@@ -1,3 +1,7 @@
+<route>
+{meta:{title:'第一个'}}
+</route>
+
 <script setup lang='ts'>
 
 </script>

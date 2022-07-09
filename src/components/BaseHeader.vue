@@ -8,12 +8,14 @@ const toggleDark = useToggle(isDark)
   <div>
     <div
       class="w-full flex justify-around items-center"
+      border="b base rounded" shadow pt-1
     >
       <div
         font-serif text-xl
       >
         priority
       </div>
+      <base-search />
 
       <div
         flex gap-10px
