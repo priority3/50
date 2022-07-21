@@ -1,5 +1,5 @@
 /// <reference types="vite/client" />
-
+/// <reference types="vite-plugin-pages/client" />
 import { clear } from 'console'
 
 declare module '*.vue' {

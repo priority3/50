@@ -11,7 +11,6 @@ const routes: RouteRecordRaw[] = [
   },
   ...pageRoutes,
 ]
-
 export const router = createRouter({
   history: createWebHashHistory(),
   routes,

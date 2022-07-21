@@ -42,6 +42,7 @@ const searchRes = $computed(() => {
         <div
           flex items-center justify-between hover="bg-gray/10"
           cursor-pointer text-xl px-5
+          @click="$router.push(item.path)"
         >
           <div flex items-center gap-2>
             <div i-carbon-checkmark text-green-700 text-2xl />
@@ -49,9 +50,7 @@ const searchRes = $computed(() => {
               {{ refIndex }}
             </span>
           </div>
-          <div
-            @click="$router.push(item.path)"
-          >
+          <div>
             {{ item.name }}
           </div>
         </div>

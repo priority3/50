@@ -6,7 +6,6 @@ export function setupRouteGuard(router: Router) {
 
 function createPageLoadingGuard(router: Router) {
   router.beforeEach((to: RouteLocationNormalized, from: RouteLocationNormalized, next: NavigationGuardNext) => {
-    console.log(to, from)
     NProgress.start()
     next()
   })
