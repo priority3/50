@@ -22,5 +22,9 @@ export default ({ command }: ConfigEnv): UserConfig => {
         },
       ],
     },
+    server: {
+      host: '::',
+      port: 8080,
+    },
   }
 }
